@@ -1,7 +1,7 @@
 from option import EuropeanOption
 from simulator import monte_carlo_price
 
-# Create an instance of EuropeanOption
+# Create an instance of European Option, and you can change between call/put
 my_option = EuropeanOption(S0=100, K=105, T=1, r=0.05, sigma=0.2, option_type='call')
 # Simulate the option price using Monte Carlo simulation
 price = monte_carlo_price(my_option, n_simulations=100000)
