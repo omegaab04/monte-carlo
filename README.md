@@ -6,7 +6,7 @@ This simple project simulates the pricing of European call and put options using
 - `option.py` – Defines option parameters
 - `simulator.py` – Runs Monte Carlo simulations
 - `main.py` – Runs the simulation and prints the price
-- `plotter.py` – (Optional) Visualizes simulated data
+- `plotter.py` – Visualises simulated data
 
 ## How to Run
 ```bash
