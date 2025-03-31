@@ -11,3 +11,12 @@ This simple project simulates the pricing of European call and put options using
 ## How to Run
 ```bash
 python main.py
+
+You can change between a call option simulation
+```
+my_option = EuropeanOption(S0=100, K=105, T=1, r=0.05, sigma=0.2, option_type='call')
+```
+or a put option simulation
+
+```
+my_option = EuropeanOption(S0=100, K=105, T=1, r=0.05, sigma=0.2, option_type='put')
