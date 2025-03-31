@@ -21,4 +21,4 @@ or a put option simulation
 ```
 my_option = EuropeanOption(S0=100, K=105, T=1, r=0.05, sigma=0.2, option_type='put')
 ```
-If you still can't see what to change, it's the ```option_type = 'call``` part. 
+If you still can't see what to change, it's the ```option_type = 'call'``` part. 
